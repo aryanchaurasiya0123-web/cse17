@@ -5,7 +5,6 @@ for(let i=1;i<=n;i++){
 let marks = parseFloat(prompt("Enter marks for Subject " + i));
 total = total + marks;
 }
-
 let average = total / n;
 let grade;
 let result;
